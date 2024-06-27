@@ -1,0 +1,10 @@
+ <!--<td class="fw-bold">
+                                    @if ($anguill->id_loterias == 45)
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <div class="circulo-azul">{{ $anguill->num1 }}</div>
+                                        <div class="circulo-azul">{{ $anguill->num2 }}</div>
+                                        <div class="circulo-azul">{{ $anguill->num3 }}</div>
+                                        <div class="circulo-azul">{{ $anguill->num4 }}</div>
+                                    </div>
+                                    @endif
+                                </td>-->

@@ -1,0 +1,635 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Red+Hat+Display:ital,wght@1,800&display=swap");
+
+.texto-cabecera-negro {
+    font-size: 3.2rem;
+    color: #464342;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.texto-sorteos-negro {
+    font-size: 2.8rem;
+    color: #464342;
+    font-family: "Red Hat Display", sans-serif;
+    margin-top: 45px;
+}
+
+.texto-sorteos-verde {
+    font-size: 2.8rem;
+    color: #489e30;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.texto-noticias-negro {
+    font-size: 2.8rem;
+    color: #464342;
+    font-family: "Red Hat Display", sans-serif;
+    margin-top: 15px;
+}
+
+.texto-noticias-verde {
+    font-size: 2.8rem;
+    color: #489e30;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+/* Estilos tarjetas loterias */
+
+.lottery-card {
+    width: 215px;
+    height: 370px;
+    background-color: #fcfcfc;
+    border-top-right-radius: 38px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.card-titulo {
+    width: 215px;
+    height: 36px;
+    background-color: #2e47a5;
+    border-top-right-radius: 60px;
+    color: white;
+}
+
+/* css para el conteo regresivo de las loterias  */
+.conteoregresivo {
+    background: #c96100;
+    border-radius: 60px;
+    width: 150px;
+    color: white;
+}
+
+.conteoregresivo a {
+    text-decoration: none !important;
+}
+
+.texto-conteo {
+    font-size: 15px !important;
+}
+
+.no-sorteos {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1rem;
+    margin-top: 6px;
+}
+
+.logo-loteria {
+    max-width: 145px;
+    max-height: 50px;
+    margin-top: -3px;
+}
+
+.logo-loteria2 {
+    max-width: 180px;
+    max-height: 74px;
+    margin-top: -3px;
+}
+
+.bolos-resultados img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.bolito {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /*background: radial-gradient(circle, #1288ac,#0a4658);*/
+    background: radial-gradient(circle, #48a071, #274e3a);
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.bolito .numero {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.bolito-noactualizado {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom left, #8f8f8f, #f0f0f0, #8f8f8f);
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.bolito-noactualizado .numero {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    font-size: 1.3rem;
+}
+
+.btn-purple {
+    background-color: #454cb8 !important;
+    color: white !important;
+    margin-top: 7px;
+    width: 160px !important;
+}
+
+.btn-green {
+    background-color: #3c7557 !important;
+    color: white !important;
+    margin-top: 5px;
+    width: 160px !important;
+}
+
+/* fin */
+
+.texto-cabecera-verde {
+    font-size: 3.2rem;
+    color: #489e30;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.grafico-bolos-monedas {
+    position: relative;
+    top: -30px;
+    margin-left: 150px;
+}
+
+.iconos-sociales {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+}
+
+.siguenos {
+    margin-right: 6px;
+    margin-left: -100px;
+}
+
+.copyright {
+    margin-left: -40px !important;
+}
+
+.publicidad-1 {
+    width: 200px;
+    height: 700px;
+}
+
+.publicidad-1 img {
+}
+
+.loterias-envivo {
+    color: #454db3;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 600;
+}
+
+.texto-noticias {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.record-dot {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 10px !important;
+}
+
+.nosotros-laptop {
+    width: 50px !important;
+}
+
+.card-resultado {
+}
+
+.logo-sorteoinfo {
+    margin-right: 20px !important;
+    margin-left: -10px;
+}
+
+.tarjeta-loteria {
+    max-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-loteria .card-img-top {
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.tarjeta-loteria .bolos {
+    margin-bottom: 10px;
+}
+
+.tarjeta-loteria .bolo {
+    display: inline-block;
+    background: radial-gradient(circle, #48a071, #274e3a);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteria .bolo-noactualizado {
+    display: inline-block;
+    /* background: radial-gradient(circle,#48a071, #274e3a); */
+    background: linear-gradient(to bottom left, #8f8f8f, #f0f0f0, #8f8f8f);
+    color: black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteriabillete {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-loteriabillete .card-img-top {
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.tarjeta-loteriabillete .bolos {
+    margin-bottom: 10px;
+}
+
+.tarjeta-loteriabillete .bolo {
+    display: inline-block;
+    background: radial-gradient(circle, #48a071, #274e3a);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteriabillete .rectangulobillete {
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #48a071,
+        #179c39
+    ); /* Gradiente elegante de izquierda a derecha */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    width: 93px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.tarjeta-loteriabillete .rectangulobillete-noactualizado {
+    display: inline-block;
+    background: linear-gradient(to bottom left, #8f8f8f, #f0f0f0, #8f8f8f);
+    color: black; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    width: 93px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+/* nuevo codigo */
+.bolobillete {
+    display: inline-block;
+    background: radial-gradient(circle, #48a071, #274e3a);
+    color: #fff; /* Color del texto */
+    border-radius: 50px; /* Bordes redondeados (opcional) */
+    width: 35px; /* Ancho del rectángulo */
+    height: 35px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.tarjeta-loteria .rectangulo {
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #48a071,
+        #179c39
+    ); /* Gradiente elegante de izquierda a derecha */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    width: 65px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.tarjeta-loteria .rectangulo-noactualizado {
+    display: inline-block;
+    /* background: linear-gradient(to right, #48a071, #179c39); Gradiente elegante de izquierda a derecha */
+    background: linear-gradient(to bottom left, #8f8f8f, #f0f0f0, #8f8f8f);
+    color: black; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    width: 65px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.tarjeta-loteria .rectangulobillete {
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        #48a071,
+        #179c39
+    ); /* Gradiente elegante de izquierda a derecha */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    width: 80px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    line-height: 30px; /* Alineación vertical del texto ajustada */
+    text-align: center; /* Alineación horizontal del texto */
+    margin-right: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.tarjeta-loteria .bolorojo {
+    display: inline-block;
+    background: radial-gradient(circle, #d11212, #860000);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteria .boloblanco {
+    display: inline-block;
+    border: 3px solid rgb(23, 23, 151); /* Agregamos un borde azul */
+    background: radial-gradient(
+        circle,
+        white 0%,
+        transparent 70%
+    ); /* Gradiente radial blanco en el centro */
+    color: #000000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.tarjeta-loteria .boloamarillo {
+    display: inline-block;
+    background: radial-gradient(circle, #efa72f, #b4822a);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteria .boloazul {
+    display: inline-block;
+    background: radial-gradient(circle, #392bff, #120077);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.tarjeta-loteria .boloazul2 {
+    display: inline-block;
+    background: radial-gradient(circle, #48a0ff, #1c3b5d);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.scroll-anteriores {
+    background: #c96100;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+}
+
+.scroll-anteriores-texto {
+    /*background: #c96100;*/
+    border-bottom: 2px solid #8d8ef3; /* Puedes cambiar #ff0000 por cualquier otro código de color */
+    border-radius: 10px;
+    width: 150px;
+}
+
+@media (max-width: 767px) {
+    .tarjeta-loteria {
+        max-width: 100%;
+    }
+
+    .siguenos {
+        margin-right: 6px;
+        margin-left: 20px;
+    }
+}
+
+/*Media query pantallas*/
+
+@media (max-width: 576px) {
+    /*texto principal*/
+    .text-sm {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+
+    .video-vivo {
+        width: 340px !important;
+        height: 250px;
+    }
+
+    .texto-sorteos-negro {
+        font-size: 2.8rem;
+        color: #464342;
+        font-family: "Red Hat Display", sans-serif;
+        margin-top: -30px;
+    }
+
+    .copyright {
+        font-size: 0.6em;
+        margin-left: 25px !important;
+    }
+
+    .sociales {
+        margin-left: 65px !important;
+    }
+
+    .publicidad-1 {
+        display: none;
+    }
+
+    .logo-brand {
+        margin-left: -5px !important;
+    }
+
+    .lottery-card {
+        margin-top: 20px;
+        width: 300px;
+        height: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-titulo {
+        width: 300px;
+        height: 36px;
+        background-color: #2e47a5;
+        border-top-right-radius: 60px;
+        color: white;
+    }
+
+    .navbar-brand {
+        width: 50px !important;
+    }
+
+    .texto-noticias-negro {
+        font-size: 2rem;
+        color: #464342;
+        font-family: "Red Hat Display", sans-serif;
+    }
+
+    .texto-noticias-verde {
+        font-size: 2rem;
+        color: #489e30;
+        font-family: "Red Hat Display", sans-serif;
+    }
+
+    .card-resultado {
+        margin-left: -20px;
+    }
+
+    #marquesina {
+        display: none;
+    }
+}
+
+/*Media query pantallas medianas*/
+@media only screen and (max-width: 1024px) {
+    .hide-on-med {
+        display: none;
+    }
+
+    .publicidad-1 {
+        display: none;
+    }
+
+    .grafico-bolos-monedas {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .hide-on-med {
+        display: none;
+    }
+
+    .grafico-bolos-monedas {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .video-vivo {
+        width: 340px !important;
+        height: 250px;
+    }
+}
